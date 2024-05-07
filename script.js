@@ -38,9 +38,9 @@ function validateForm() {
   navbar.addEventListener("mouseover", function() {
     navbar.style.backgroundColor = "#ffccbc";
   });
-  const myBody = 
-  document.write.("<h1>to show understanding</h1>");
-  document.body.innerHTML = "Some new HTML content";
+
+//   document.write.("<h1>to show understanding</h1>");
+//   document.body.innerHTML = "Some new HTML content";
 
 
 
