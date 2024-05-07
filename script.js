@@ -5,13 +5,13 @@ const myList = document.getElementById("myList");
 const newItem = document.createElement("li");
 
 // Create a text 
-const textNode = document.createTextNode("suit");
+const textNode = document.createTextNode("suit"); //idk???
 
 // Append the text node to the li element
 newItem.appendChild(textNode);
 
 // Append the li node to the list
-myList.appendChild(newItem);
+myList.appendChild(newItem); //not appending
 
 // validate form
 function validateForm() {
@@ -27,6 +27,22 @@ function validateForm() {
     return true;
   }
 
+  // Cache the navbar element using querySelector
+  const navbar = document.querySelector(".navbar");
+
+  // Navigate from navbar to body using parentNode
+  const body = navbar.parentNode;
 
 
-}
+  // Modify background-color style of navbar in response to user interaction
+  navbar.addEventListener("mouseover", function() {
+    navbar.style.backgroundColor = "#ffccbc";
+  });
+  const myBody = 
+  document.write.("<h1>to show understanding</h1>");
+  document.body.innerHTML = "Some new HTML content";
+
+
+
+
+
